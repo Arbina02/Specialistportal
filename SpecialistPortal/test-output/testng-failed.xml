@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.org.Specialistportal.AccountTest">
+        <methods>
+          <include name="Forgotpassword"/>
+          <include name="patients"/>
+          <include name="Profile"/>
+          <include name="schedule"/>
+          <include name="Invalid"/>
+          <include name="over"/>
+          <include name="singin"/>
+          <include name="Specialist"/>
+          <include name="Resource"/>
+          <include name="Appoint"/>
+        </methods>
+      </class> <!-- com.org.Specialistportal.AccountTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

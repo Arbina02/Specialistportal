@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="480526" started-at="2020-05-11T17:01:25 IST" finished-at="2020-05-11T17:09:26 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="480526" started-at="2020-05-11T17:01:25 IST" finished-at="2020-05-11T17:09:26 IST">
+      <class name="com.org.Specialistportal.AccountTest">
+        <test-method status="PASS" signature="Invalid()[pri:1, instance:com.org.Specialistportal.AccountTest@2344fc66]" name="Invalid" duration-ms="41362" started-at="2020-05-11T17:01:25 IST" finished-at="2020-05-11T17:02:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invalid -->
+        <test-method status="PASS" signature="Forgotpassword()[pri:2, instance:com.org.Specialistportal.AccountTest@2344fc66]" name="Forgotpassword" duration-ms="6538" started-at="2020-05-11T17:02:07 IST" depends-on-methods="com.org.Specialistportal.LoginTest.Invalid" finished-at="2020-05-11T17:02:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Forgotpassword -->
+        <test-method status="PASS" signature="singin()[pri:3, instance:com.org.Specialistportal.AccountTest@2344fc66]" name="singin" duration-ms="82903" started-at="2020-05-11T17:02:13 IST" depends-on-methods="com.org.Specialistportal.LoginTest.Forgotpassword" finished-at="2020-05-11T17:03:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- singin -->
+        <test-method status="PASS" signature="over()[pri:4, instance:com.org.Specialistportal.AccountTest@2344fc66]" name="over" duration-ms="89796" started-at="2020-05-11T17:03:36 IST" depends-on-methods="com.org.Specialistportal.LoginTest.singin" finished-at="2020-05-11T17:05:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- over -->
+        <test-method status="PASS" signature="Appoint()[pri:5, instance:com.org.Specialistportal.AccountTest@2344fc66]" name="Appoint" duration-ms="32068" started-at="2020-05-11T17:05:06 IST" depends-on-methods="com.org.Specialistportal.OverviewTest.over" finished-at="2020-05-11T17:05:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Appoint -->
+        <test-method status="PASS" signature="schedule()[pri:6, instance:com.org.Specialistportal.AccountTest@2344fc66]" name="schedule" duration-ms="32356" started-at="2020-05-11T17:05:38 IST" depends-on-methods="com.org.Specialistportal.AppointmentTest.Appoint" finished-at="2020-05-11T17:06:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- schedule -->
+        <test-method status="PASS" signature="patients()[pri:7, instance:com.org.Specialistportal.AccountTest@2344fc66]" name="patients" duration-ms="54229" started-at="2020-05-11T17:06:10 IST" depends-on-methods="com.org.Specialistportal.SchedulesTest.schedule" finished-at="2020-05-11T17:07:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patients -->
+        <test-method status="PASS" signature="Specialist()[pri:8, instance:com.org.Specialistportal.AccountTest@2344fc66]" name="Specialist" duration-ms="25386" started-at="2020-05-11T17:07:05 IST" depends-on-methods="com.org.Specialistportal.PatientTest.patients" finished-at="2020-05-11T17:07:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Specialist -->
+        <test-method status="PASS" signature="Resource()[pri:9, instance:com.org.Specialistportal.AccountTest@2344fc66]" name="Resource" duration-ms="90300" started-at="2020-05-11T17:07:30 IST" depends-on-methods="com.org.Specialistportal.PatientTest.patients" finished-at="2020-05-11T17:09:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Resource -->
+        <test-method status="PASS" signature="Profile()[pri:10, instance:com.org.Specialistportal.AccountTest@2344fc66]" name="Profile" duration-ms="25524" started-at="2020-05-11T17:09:00 IST" depends-on-methods="com.org.Specialistportal.ResourcesTest.Resource" finished-at="2020-05-11T17:09:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Profile -->
+      </class> <!-- com.org.Specialistportal.AccountTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
